@@ -1,0 +1,230 @@
+@media only screen and (min-width: 400px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: block;
+    margin: auto;
+    padding: 26px 38px;
+    height: 148vh;
+    width: 101vw;
+    background-color: rgba(136, 151, 206, 0.96);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    /* border: none; */
+}
+
+input {
+    width: 75vw;
+    height: 6vh;
+    border: 2px solid green;
+    /* border: none; */
+    border-radius: 11px;
+    background-color: #080835;
+    color: gray;
+    padding: 0 93px;
+    border: none;
+}
+
+.box1 {
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    width: 45vw;
+    height: 40vh;
+    border: 2px solid green;
+    border: none;
+    border-radius: 75px;
+    background-color: #080835;
+    color: gray;
+    margin-top: 21px;
+}
+
+.box2 {
+    width: 20vw;
+    height: 24vh;
+    border: 2px solid green;
+    border: none;
+    border-radius: 39px;
+    background-color: #080835;
+    color: gray;
+    margin: 21px 10px;
+}
+
+.box3 {
+    width: 20vw;
+    height: 24vh;
+    border: 2px solid green;
+    border: none;
+    border-radius: 39px;
+    background-color: #080835;
+    color: gray;
+    margin: 21px 10px;
+}
+
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    width: 20vw;
+    height: 18vh;
+    border: 2px solid green;
+    border: none;
+    border-radius: 39px;
+    background-color: #080835;
+    color: gray;
+    margin: 21px 10px;
+}
+
+.box5 {
+    width: 20vw;
+    height: 18vh;
+    border: 2px solid green;
+    border: none;
+    border-radius: 39px;
+    background-color: #080835;
+    color: gray;
+    margin: 21px 10px;
+}
+
+.box6 {
+    width: 20vw;
+    height: 18vh;
+    border: 2px solid green;
+    border: none;
+    border-radius: 39px;
+    background-color: #080835;
+    color: gray;
+    margin: 21px 10px;
+}
+
+img {
+    position: relative;
+    width: 47px;
+    top: 23px;
+    left: 0;
+}
+
+p {
+    position: relative;
+    color: white;
+    top: 122px;
+    right: 0;
+    font-size: 0.8rem;
+}
+
+.para2 p {
+    position: relative;
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+.locate {
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+.humidity {
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+
+#icon {
+    position: relative;
+    right: 6px;
+    bottom: 0px;
+}
+
+.fa-solid {
+    position: relative;
+    right: 175px;
+    bottom: 71px;
+    color: white;
+    font-size: 16px;
+}
+
+.pressure {
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+
+.content {
+    position: relative;
+    top: -48px;
+    left: 0;
+}
+
+.content1 {
+    position: relative;
+    top: -48px;
+    left: 0;
+}
+
+.content2 {
+    position: relative;
+    top: -48px;
+    left: 0;
+}
+
+.search {
+    position: relative;
+    top: 0px;
+    right: 25px;
+    font-size: 0.8rem;
+}
+
+.phone {
+    position: relative;
+    bottom: 131px;
+    right: 168px;
+}
+
+.droplet {
+    position: relative;
+    left: 0;
+    top: 60px;
+}
+
+.paraPressure {
+    position: relative;
+    bottom: 125px;
+    right: 178px;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 13px;
+    color: black;
+}
